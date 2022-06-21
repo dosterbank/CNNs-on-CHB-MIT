@@ -1,2 +1,0 @@
-pathDataSet:******************/physionet.org/pn6/chbmit/
-FirstPartPathOutput: ******************/dataset/spectograms

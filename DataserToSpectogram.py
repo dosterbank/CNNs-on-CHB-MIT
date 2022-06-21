@@ -8,12 +8,14 @@ import os
 
 # DATASET: https://physionet.org/pn6/chbmit/
 sampleRate = 256
-pathDataSet = ''# path of the dataset
-FirstPartPathOutput='' #path where the spectogram will be saved
+pathDataSet = '/home/bryan/CNNs-on-CHB-MIT/archive.physionet.org/pn6/chbmit/'# path of the dataset
+FirstPartPathOutput='/media/bryan/C8C82AF0C82ADD06/Data from linux' #path where the spectogram will be saved
 #patients = ["01", "02", "03", "05", "09", "10", "13", "14", "18", "19", "20", "21", "23"]
 #nSeizure = [7, 3, 6, 5, 4, 6, 5, 5, 6, 3, 5, 4, 5]
-patients = ["01", "02", "05", "19", "21", "23"]
+#patients = ["01", "02", "05", "19", "21", "23"]
+patients = ["01", "02"]
 _30_MINUTES_OF_DATA = 256*60*30
+
 _MINUTES_OF_DATA_BETWEEN_PRE_AND_SEIZURE = 3#In teoria 5 come l'SPH ma impostato a 3 per considerare alcune seizure prese nel paper
 _MINUTES_OF_PREICTAL = 30
 _SIZE_WINDOW_IN_SECONDS = 30

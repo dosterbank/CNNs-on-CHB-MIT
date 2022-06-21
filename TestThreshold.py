@@ -7,7 +7,9 @@ OutputPathModels=['**********/PrimaEsecuzione/',
 #the output of the network in the test phase. It's used to change the threshold
 #and adapt it to each patient.
 def main():
-    pat=["01","02", "05", "19","21", "23"]
+    
+    #pat=["01","02", "05", "19","21", "23"]
+    pat=["01","02"]
     nSeizure=[7,3, 5, 2, 4,5]
     secondsInterictalInTest=[7500,31500, 10500, 46500, 21000,10500]
     threshold=[0.6,0.8, 0.4, 0.001, 0.3,0.3]

@@ -19,13 +19,14 @@ import math
 # Returns a compiled model identical to the saved one
 #model = load_model('my_model.h5')
 
-PathSpectogramFolder=''
-OutputPath=''
-OutputPathModels=''
+PathSpectogramFolder='/media/bryan/C8C82AF0C82ADD06/Data from linux'
+OutputPath='/media/bryan/C8C82AF0C82ADD06/Data from linux'
+OutputPathModels='/media/bryan/C8C82AF0C82ADD06/Data from linux'
 interictalSpectograms=[]
 preictalSpectograms=[]  #This array contains syntetic data, it's created to have a balance dataset and it's used for training
 preictalRealSpectograms=[]  #This array containt the real preictal data, it's used for testing
-patients = ["01", "02", "05", "19", "21", "23"]
+#patients = ["01", "02", "05", "19", "21", "23"]
+patients = ["01", "02"]
 nSeizure=0
 
 def loadParametersFromFile(filePath):
